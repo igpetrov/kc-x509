@@ -33,3 +33,7 @@ curl -X POST "https://localhost:18443/auth/realms/master/protocol/openid-connect
 -Dcom.sun.jndi.ldap.object.disableEndpointIdentification=true
 -Djavax.net.debug=ssl:handshake:verbose:keymanager:sslctx
 ```
+
+### Pre-Generated certificate DN
+
+`CN=Private, OU=Private, O=Private, L=Odesa, ST=ODS, C=UA, EMAILADDRESS=igpetrov@github.io`
